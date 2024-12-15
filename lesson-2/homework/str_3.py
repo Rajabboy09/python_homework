@@ -1,0 +1,6 @@
+txt = input("Input text : ")
+print(len(txt))
+txt = txt.upper()
+print(txt)
+txt = txt.lower()
+print(txt)
