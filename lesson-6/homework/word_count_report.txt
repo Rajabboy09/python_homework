@@ -1,0 +1,8 @@
+Word Count Report
+Total Words: 94
+Top 5 Words:
+python-9
+the-6
+in-6
+programming-5
+a-4
