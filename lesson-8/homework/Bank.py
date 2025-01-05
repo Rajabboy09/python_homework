@@ -70,7 +70,7 @@ class Bank:
     def load_from_file(self):
         if os.path.exists('accounts.txt'):
             with open('accounts.txt', 'r') as f:
-                account_data = json.load(f)
+                accounts_data = json.load(f)
                 for account_number, account_info in accounts_data.items():
                     self.accounts[account_number] = Account(**account_info)
 def main():
