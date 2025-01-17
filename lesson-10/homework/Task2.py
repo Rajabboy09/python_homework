@@ -43,7 +43,7 @@ def write_average_grades(file_name, averages):
 if __name__ == '__main__':
     file_name = 'grades.csv'
     
-    if not os.path.exists('file_name'):
+    if not os.path.exists(file_name):
         with open(file_name,'w',newline='') as f:
             writer = csv.writer(f)
             writer.writerow(['Name', 'Subject', 'Grade'])
